@@ -1,0 +1,10 @@
+n1 = input('Digite um valor ')
+print('O tipo primitivo desse valor é:',type(n1))
+print('so tem espeço:',n1.isspace())
+print('so tem numerico:',n1.isnumeric())
+print('so tem alfabetico:',n1.isalpha())
+print('so tem alfanumerico:',n1.isalnum())
+print('so tem maiusculo:',n1.isupper())
+print('so tem minusculas:',n1.islower())
+print('so tem captalizada:',n1.istitle())
+#isso seve para mostar os metodos
